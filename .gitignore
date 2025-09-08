@@ -1,1 +1,50 @@
+ # Composer dependencies
+/vendor/
 
+# Node modules (if using npm/yarn)
+node_modules/
+
+# Yii runtime files
+/runtime/
+/web/assets/
+/frontend/web/assets/
+/backend/web/assets/
+/console/runtime/
+
+# Logs
+*.log
+/logs/
+
+# Environment files
+.env
+.env.*.local
+.php_cs.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# PHPStorm
+*.iml
+*.ipr
+*.iws
+
+# PHPUnit coverage
+/coverage/
+
+# Cache / temp files
+*.cache
+*.tmp
+
+# Backup files
+*~
+*.bak
+*.swp
+
+ 
